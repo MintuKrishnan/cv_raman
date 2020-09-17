@@ -44,6 +44,7 @@ def main():
         print("Please enter the marks of", student_name)
         scores = list(map(int, input().split(" ")))[:no_of_subjects] 
         score_dict[student_name] = get_average(scores)
+    print(score_dict)
 
 
 main()
